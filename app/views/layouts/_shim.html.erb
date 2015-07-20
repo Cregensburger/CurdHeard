@@ -1,1 +1,20 @@
-_shim.html.erb
+<!--Meta Tag START-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+	<meta name="HandheldFriendly" content="true"/> 
+	<meta name="MobileOptimized" content="320"/> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Meta Tag END-->
+
+<!-- links & scripts START-->
+	<!--jQuery scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<!--Bootstrap -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<!-- links & scripts END-->
+
+<!-- style sheet linking START-->
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+<!-- style sheet linking END-->
