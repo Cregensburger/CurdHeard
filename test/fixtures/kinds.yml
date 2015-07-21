@@ -3,7 +3,19 @@
 one:
   name: MyString
   cheeses_id: 
+  FOREIGN: MyString
+  KEY: MyString
+  cheese_id: MyString
+  REFERENCES: MyString
+  cheeses: MyString
+  id: MyString
 
 two:
   name: MyString
   cheeses_id: 
+  FOREIGN: MyString
+  KEY: MyString
+  cheese_id: MyString
+  REFERENCES: MyString
+  cheeses: MyString
+  id: MyString
