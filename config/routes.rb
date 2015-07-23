@@ -6,8 +6,9 @@ Rails.application.routes.draw do
   resources :cheeses
   root 'cheeses#index' 
 
-  get 'cheeses/index'
+  get '/all' => 'cheeses#all'
   get 'cheeses/new'
+  get '/search' => 'cheeses#search'
   get '/about' => 'welcome#about'
   get '/contact' => 'welcome#contact'
 
