@@ -1,20 +1,24 @@
 class CheesesController < ApplicationController
-	def new
-	end
-	
-	def create
-		render plain: params[:cheese].inspect
-  	end
+  def new
+  end
 
-  	def index
-  		#placeholder
-  	end
+  def create
+  	render plain: params[:cheese].inspect
+  end
 
-  	def show
-  		#placeholder
-  	end
-  	
-  	def search
-  		#placeholder
-  	end
+  def index
+  	@cheeses = Cheese.all
+  end
+
+  def show
+    @cheese = Cheese.find(params[:id])
+  end
+
+  def search
+  	#placeholder
+  end
+
+  def edit
+    @cheese = cheese.find params[:id]
+  end
 end

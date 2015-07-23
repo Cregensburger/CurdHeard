@@ -3,9 +3,11 @@ class CreateCheeses < ActiveRecord::Migration
     create_table :cheeses do |t|
       t.string :name
       t.string :picture
+      t.string :origin
+      t.string :cheesetype
+      t.string :shortdescription
 
 
-      t.timestamps null: false
     end
   end
 end
