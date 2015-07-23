@@ -5,4 +5,8 @@ class CheesesController < ApplicationController
 	def create
 		render plain: params[:cheese].inspect
   	end
+
+  	def index
+  		#placeholder
+  	end
 end

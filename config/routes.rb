@@ -6,7 +6,11 @@ Rails.application.routes.draw do
   resources :cheeses
   root 'cheeses#index' 
 
+  get 'cheeses/index'
   get 'cheeses/new'
+  get '/about' => 'welcome#about'
+  get '/contact' => 'welcome#contact'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
