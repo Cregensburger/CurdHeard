@@ -9,4 +9,12 @@ class CheesesController < ApplicationController
   	def index
   		#placeholder
   	end
+
+  	def show
+  		#placeholder
+  	end
+  	
+  	def search
+  		#placeholder
+  	end
 end
