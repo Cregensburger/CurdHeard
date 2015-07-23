@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get '/all' => 'cheeses#all'
   get 'cheeses/new'
+  get 'example' => 'cheeses#example'
   get '/search' => 'cheeses#search'
   get '/about' => 'welcome#about'
   get '/contact' => 'welcome#contact'
