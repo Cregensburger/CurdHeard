@@ -1,25 +1,79 @@
 <%= form_for :cheese, url: cheeses_path do |f| %>
-  <p>
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </p>
- 
-  <p>
-    <%= f.label :'country of Origin' %><br>
-    <%= f.text_area :country %>
-  </p>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %><br>
 
-   <p>
-    <%= f.label :type %><br>
-    <%= f.text_area :kind %>
-  </p>
-
-   <p>
-    <%= f.label :picture %><br>
-    <%= f.text_area :picture %>
-  </p>
  
-  <p>
-    <%= f.submit %>
-  </p>
+
+  <br><%= f.label :'country of Origin' %><br>
+  <select id="country" name="country">
+    <option value="0">Select Country</option>
+    <option value="1">France</option>
+    <option value="2">Spain</option>
+    <option value="3">Netherlands</option>
+    <option value="4">United States of America</option>
+    <option value="5">Germany</option>
+    <option value="6">Greece</option>
+    <option value="7">Italy</option>
+    <option value="8">South America</option>
+    <option value="9">England</option>
+    <option value="10">Ireland</option>
+    <option value="11">Australia</option>
+    <option value="12">New Zealand</option>
+  </select><br>
+
+
+  <br><%= f.label :type %><br>
+    <select id="country" name="country">
+      <option value="">Select Type</option>
+      <option value="1">Asiago</option>
+      <option value="2">Blue</option>
+      <option value="3">Brebis</option>
+      <option value="4">Brickcheese</option>
+      <option value="5">Brie</option>
+      <option value="6">Brie, Double Cream</option>
+      <option value="7">Brie, Triple Cream</option>
+      <option value="8">Buttercheese</option>
+      <option value="9">Camembert</option>
+      <option value="10">Cheddar</option>
+      <option value="11">Cheddar, Aged</option>
+      <option value="12">Cheddar, Smoked</option>
+      <option value="13">Chevre</option>
+      <option value="14">Comte</option>
+      <option value="15">Curd</option>
+      <option value="16">Edam</option>
+      <option value="17">Feta</option>
+      <option value="18">Fontina</option>
+      <option value="19">Gjetost</option>
+      <option value="20">Gorgonzola</option>
+      <option value="21">Gouda</option>
+      <option value="22">Gouda, Aged</option>
+      <option value="23">Gouda, Smoked</option>
+      <option value="24">Gruyere</option>
+      <option value="25">Havarti</option>
+      <option value="26">Jack</option>
+      <option value="27">Manchego</option>
+      <option value="28">Manouri</option>
+      <option value="29">Marscapone</option>
+      <option value="30">Myzithra</option>
+      <option value="31">Parmesan</option>
+      <option value="32">Pecorino</option>
+      <option value="33">Red Leicester</option>
+      <option value="34">Ricotta</option>
+      <option value="35">Roquefort</option>
+      <option value="36">Snofrisk</option>
+      <option value="37">Stilton</option>
+      <option value="38">String Cheese</option>
+      <option value="39">Swiss</option>
+      <option value="40">Taleggio</option>
+      <option value="41">Tetilla</option>
+      <option value="42">Tilsit</option>
+      <option value="43">Tomme</option>
+      <option value="44">Truckle</option>
+      <option value="45">Washrind</option>
+    </select>
+
+  <br><br> <%= f.label :picture %><br>
+  <%= f.text_field :picture %> <br><br>
+  <%= f.submit %>
 <% end %>
+

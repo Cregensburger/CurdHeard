@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+/* Header Styling */
+	.headerImage {
+		width: 100%;
+		z-index: 2;
+		padding: 0;
+	}
+
+	.col-md-12 {
+		padding: 0;
+	}
+
+	/* Header Text */
+	#nameTitle {
+		background-color:rgba(43, 20, 14, 1);
+		color: #DAD4B4;
+		text-align: center;
+		margin-top: 0;
+	}
+
+	#heading {
+		padding: 0;
+	}
+
+/* Nav bar and Search bar */
+	.theBar {
+		z-index: 3;
+		padding-top: .5em;
+		padding-left: 30%;
+	}
+
+
+/* Main Body Styling */
+	#bodyContent {
+		padding-top: 3em;
+		padding-left: 3em;
+	}
+
+	body {
+		background: #DAD4B4;
+		color: #301A0F;
+
+	}
