@@ -21,4 +21,8 @@ class CheesesController < ApplicationController
   def edit
     @cheese = cheese.find params[:id]
   end
+
+  def example
+    #placeholder
+  end
 end

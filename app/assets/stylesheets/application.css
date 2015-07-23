@@ -90,3 +90,21 @@
 		padding-left: 13%;
 	}
 
+	/* Cheese Example, Port Salut */
+	.portSalutImg {
+		height: 20em;
+		width: 20em;
+		border: 4px solid #2B1401;
+		border-radius: 1em;
+		float: left;
+	}
+
+	.exampleTextContent{
+		padding-left: 22em;
+		padding-right: 10em;
+	}
+
+	.example {
+		float: left;
+		padding-bottom: 5em;
+	}
